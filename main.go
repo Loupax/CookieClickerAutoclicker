@@ -15,6 +15,8 @@ func main() {
 				robotgo.MouseClick()
 				time.Sleep(time.Millisecond)
 			}
+		} else {
+			time.Sleep(time.Second * 5)
 		}
 	}
 }
