@@ -15,7 +15,6 @@ func main() {
 				x, y := robotgo.GetMousePos()
 				if x >= 122 && x <= 300 && y >= 311 && y <= 472 {
 					robotgo.MouseClick()
-					time.Sleep(time.Millisecond)
 				}
 			}
 		}
